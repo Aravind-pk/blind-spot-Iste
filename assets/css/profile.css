@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.container{
+    min-height:100vh;
+    width:100%;
+}
+body{
+    background-image:url(../img/Untitled\ design\ \(1\).jpg);
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.profile{
+    margin-top:60px;
+}
+
+.profile-pic{
+    width:150px;
+    display: block;
+    margin-top:20px;
+    
+}
+ul li{
+    list-style-type:none;
+}
+
+.card{
+    background-color:#000;
+}
+.alert{
+    position:absolute;
+    bottom:0;
+    width:90%;
+    left:50%;
+    transform:translateX(-50%);
+    background-color:#000;
+ border:1px solid var(--danger);
+}
